@@ -1,0 +1,239 @@
+
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - vjti_name_enquiry
+  - vjti_location_enquiry
+  - vjti_mca_enquiry
+  - vjti_mca_intake_enquiry
+  - vjti_mca_hod_enquiry
+  - vjti_academic_enquiry
+  - vjti_history_enquiry
+  - vjti_courses_enquiry
+  - vjti_pg_courses
+  - vjti_ug_courses
+  - vjti_fee_structure_enquiry
+  - vjti_fy_fee_structure
+  - vjti_sy_fee_structure
+  - vjti_DS_fee_structure
+  - vjti_BTech_fee_structure
+  - vjti_MTech_fee_structure
+  - vjti_MCA_fee_structure
+  - vjti_PHD_fee_structure
+  - vjti_about_us_enquiry
+  - vjti_contact_us_enquiry
+  - vjti_tpo_enquiry
+  - vjti_tpo_intro
+  - vjti_mca_vision_enquiry
+  - vjti_mca_eligibility
+  - vjti_mca_staff_enquiry
+  - vjti_scholarship_enquiry
+  - vjti_placement_enquiry
+  - vjti_companies_placement_enquiry
+  - vjti_mca_hostel_enquiry
+  - vjti_mca_notice_enquiry
+  - vjti_library_enquiry
+  - vjti_library_details_enquiry
+  - vjti_home_enquiry
+  - vjti_director_enquiry
+  - vjti_department_enquiry
+  - vjti_mca_department_enquiry
+  - vjti_exam_section_enquiry
+  - vjti_hostel_enquiry
+  - notice
+
+actions:
+  - action_hello_world
+    
+responses:
+  utter_vjti_hostel:
+  - text: "Link for hostel details: https://www.vjti.ac.in/index.php/hostelvjti"
+
+  utter_vjti_exam_section:
+  - text: "Link for VJTI's Exam Section : https://www.vjti.ac.in/index.php/examsection"
+
+  utter_vjti_events:
+  - text: "There are events like Technovanza, Enthusia, Pratibimb and Rangwardhan which are organised every year in VJTI"
+
+  utter_vjti_mca_department:
+  - text: "Visit the following link viewing details of MCA department of VJTI : https://www.vjti.ac.in/index.php/academics/mca "
+
+  utter_ok:
+  - text: "OK"
+
+  utter_vjti_department:
+  - text: "Visit the following link viewing departments of VJTI : https://www.vjti.ac.in/index.php/academics "
+
+  utter_vjti_director:
+  - text: "The director of VJTI Mr. Dhiren R Patel. "
+
+  utter_vjti_home:
+  - text: "You can go to home page from this site: https://www.vjti.ac.in/ "
+
+  utter_vjti_library_details:
+  - text: "For more deatils about Library visit: https://www.vjti.ac.in/index.php/facilities/library-s"
+
+  utter_vjti_library:
+  - text: "The college has library with all the facilities and huge knowledege resourses"
+
+  utter_did_that_help:
+  - text: "Did that help ?"
+
+  utter_more_help3: 
+  - text: "Want to know more? Type your doubts"
+
+  utter_more_help2: 
+  - text: "Have any doubts? "
+
+  utter_more_help: 
+  - text: "Is there anything else I can help you with ? "
+
+  utter_vjti_mca_staff:
+  - text: " for MCA faculty details click on following link: https://www.vjti.ac.in/index.php/academics/mca"
+
+  utter_vjti_mca_hostel:
+  - text: "Not available for mca student"
+  
+  utter_vjti_companies_placement:
+  - text: "You can see here list of companies which visits VJTI for placements: https://www.vjti.ac.in/index.php/component/content/article/2-uncategorised/40-placements"
+
+  utter_vjti_placement:
+  - text: "You can see last years placements statistics here: https://www.vjti.ac.in/images/TPO/revised_tpo/201112_Tag15.pdf"
+
+  utter_vjti_scholarship:
+  - text: "Go to link for scholarship details: https://www.vjti.ac.in/index.php/scholarships"
+
+  utter_vjti_mca_eligibility:
+  - text: "Go to link for MCA eligibility criteria: https://www.vjti.ac.in/index.php/admissions/mca-programme"
+
+  utter_vjti_mca_vision:
+  - text: "To create a community of Critical Thinkers, Problem Solvers, Technological Experts who will be able to excel individually and collaboratively towards development of quality applications for betterment of business and society."
+
+  utter_vjti_tpo_intro:
+  - text: "Yes , VJTI has Training and placement cell" 
+
+  utter_vjti_tpo:
+  - text: "Click on the link to know more about TPO  : https://www.vjti.ac.in/index.php/tpo" 
+
+  utter_vjti_contact_us:
+  - text: "Click on the link for contact details: https://www.vjti.ac.in/index.php/contactus"
+
+  utter_vjti_about_us:
+  - text: "Click on the link: https://www.vjti.ac.in/index.php/aboutus"
+
+  utter_vjti_DS_fee_structure:
+  - text: "follow the link for fees details: https://www.vjti.ac.in/images/Admissions/20-21/201412Fee%20Structure%20For%20lateral%20entry%20%20Direct%20Second%20Year%20to%20B.Tech%20%20programme%20%20AY%202020-21%201.pdf"
+
+  utter_vjti_sy_fee_structure:
+  - text: "follow the link for fees details: https://www.vjti.ac.in/images/FeesRegistration/20-21/211101_Fee%20Structure%20for%20second%20year%20onwards%20B.Tech.%20M.Tech%20MCA%20and%20PhD%20Programme%20for%20AY%202020-21.pdf"
+
+  utter_vjti_fy_fee_structure:
+  - text: "follow the link for fees details: https://www.vjti.ac.in/images/FeesRegistration/20-21/210202_Fee%20Structure%20for%20First%20Year%20B.Tech%20M.Tech%20and%20MCA%20Programme%20%20%20AY%202020%20-21.pdf"
+  
+  utter_vjti_BTech_fee_structure:
+  - text: "Select the year"
+    buttons:
+    - title: "first year"
+      payload: /vjti_fy_fee_structure
+    - title: "second year onwards" 
+      payload: /vjti_sy_fee_structure
+    - title: "Direct second year" 
+      payload: /vjti_DS_fee_structure
+  
+  utter_vjti_MTech_fee_structure:
+  - text: "Select the year"
+    buttons:
+    - title: "first year"
+      payload: /vjti_fy_fee_structure
+    - title: "second year " 
+      payload: /vjti_sy_fee_structure
+
+  utter_vjti_MCA_fee_structure:
+  - text: "Select the year"
+    buttons:
+    - title: "first year"
+      payload: /vjti_fy_fee_structure
+    - title: "second year Onwards" 
+      payload: /vjti_sy_fee_structure
+  
+  utter_vjti_PHD_fee_structure:
+  - text: "Click the button to view fees structure"
+    buttons:
+    - title: "PHD fee structure"
+      payload: /vjti_sy_fee_structure
+   
+  utter_vjti_fee_structure:
+  - text: "Select the course to know their fee structure "
+    buttons:
+    - title: "B Tech"
+      payload: /vjti_BTech_fee_structure
+    - title: "M Tech" 
+      payload: /vjti_Mtech_fee_structure
+    - title: "MCA" 
+      payload: /vjti_MCA_fee_structure  
+    - title: "P.H.D" 
+      payload: /vjti_PHD_fee_structure      
+    - title: "Direct Second Year" 
+      payload: /vjti_DS_fee_structure      
+    
+  utter_pg_courses:
+  - text: "VJTI has MCA ,MTECH and P.H.D courses"
+
+  utter_ug_courses:
+  - text: " VJTI has B TECH courses "
+
+  utter_vjti_courses:
+  - text: "Select which courses which you want to know about"
+    buttons:
+    - title: "PG Courses"
+      payload: /vjti_pg_courses
+    - title: "UG Courses" 
+      payload: /vjti_ug_courses
+    
+  utter_vjti_history:
+  - text: "The institute was founded in 1887 and formerly known as the Victoria Jubilee Technical Institute. It adopted its present name on 26 Jan 1997 "
+
+  utter_vjti_academic:
+  - text: "VJTI has 12 academic departments. Of these nine offer certificate, diploma, degree, post graduate programs "
+
+  utter_vjti_mca_hod:
+  - text: "The Head of department of MCA is Prof. Anala Pandit "
+  
+  utter_vjti_mca_intake:
+  - text: The intake for fist year MCA is 60    
+
+  utter_vjti_mca:
+  - text: "The college has Master of Computer Applications (MCA) course. For more information  about mca departement you can check the link: https://www.vjti.ac.in/index.php/academics/mca"
+  
+  utter_vjti_name:
+  - text: "The name of college is Veermata Jijabai Technological Institute "
+  
+  utter_vjti_location:
+  - text: "Matunga Mumbai, 400 019  For viewing location in Google Maps click on the following link: https://goo.gl/maps/PacU69p8bkJrV5TM6"
+
+  utter_greet:
+  - text: "Hey! How may I help you ?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_happy:
+  - text: "Great, How may I Help you ?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

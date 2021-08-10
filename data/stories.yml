@@ -1,0 +1,254 @@
+version: "2.0"
+stories:
+- story: notice path
+  steps:
+  - intent: notice
+  - action: action_hello_world
+
+- story: vjti_hostel path
+  steps:
+  - intent: vjti_hostel_enquiry
+  - action: utter_vjti_hostel
+
+- story: vjti_exam_section path
+  steps:
+  - intent: vjti_exam_section_enquiry
+  - action: utter_vjti_exam_section
+
+- story: vjti_mca_department path
+  steps:
+  - intent: vjti_mca_department_enquiry
+  - action: utter_vjti_mca_department
+  
+- story: vjti_department path
+  steps:
+  - intent: vjti_department_enquiry
+  - action: utter_vjti_department
+  - intent: utter_more_help3
+
+- story: vjti_director path
+  steps:
+  - intent: vjti_director_enquiry
+  - action: utter_vjti_director
+  - intent: utter_more_help3
+
+- story: vjti_home path
+  steps:
+  - intent: vjti_home_enquiry
+  - action: utter_vjti_home
+  - intent: utter_more_help3
+  
+- story: vjti_library path
+  steps:
+  - intent: vjti_library_enquiry
+  - action: utter_vjti_library
+  - intent: vjti_library_details_enquiry
+  - action: utter_vjti_library_details
+
+- story: vjti_mca_hostel path
+  steps: 
+  - intent: vjti_mca_hostel_enquiry
+  - action: utter_vjti_mca_hostel
+
+- story: vjti_placement_companies path
+  steps: 
+  - intent: vjti_placement_companies_enquiry
+  - action: utter_vjti_companies_placement
+
+- story: vjti_placement path
+  steps: 
+  - intent: vjti_placement_enquiry
+  - action: utter_vjti_placement
+
+- story: vjti_scholarship path
+  steps: 
+  - intent: vjti_scholarship_enquiry
+  - action: utter_vjti_scholarship
+    
+- story: vjti_mca_staff path
+  steps: 
+  - intent: vjti_mca_staff_enquiry
+  - action: utter_vjti_mca_staff
+
+- story: vjti_mca_eligibility path
+  steps: 
+  - intent: vjti_mca_eligibility
+  - action: utter_vjti_mca_eligibility
+
+- story: vjti_mca_vision path
+  steps:
+  - intent: vjti_mca_vision_enquiry
+  - action: utter_vjti_mca_vision
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_more_help
+  
+- story: vjti_tpo path
+  steps:
+  - intent: vjti_tpo_intro_enquiry
+  - action: utter_vjti_tpo_intro
+  - intent: vjti_tpo_enquiry
+  - action: utter_vjti_tpo
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_ok
+ 
+- story: vjti_about_us path
+  steps:
+  - intent: vjti_about_us_enquiry
+  - action: utter_vjti_about_us
+  - action: utter_did_that_help
+  - intent: affirm
+
+- story: vjti_contact_us path
+  steps:
+  - intent: vjti_contact_us_enquiry
+  - action: utter_vjti_contact_us
+
+- story: vjti_fy_fee_structure path
+  steps:
+  - intent: vjti_fy_fee_structure
+  - action: utter_vjti_fy_fee_structure
+
+- story: vjti_sy_fee_structure path
+  steps:
+  - intent: vjti_sy_fee_structure
+  - action: utter_vjti_sy_fee_structure
+
+- story: vjti_DS_fee_structure path
+  steps:
+  - intent: vjti_DS_fee_structure
+  - action: utter_vjti_DS_fee_structure
+
+- story: vjti_MTech_fee_structure path
+  steps:
+  - intent: vjti_MTech_fee_structure
+  - action: utter_vjti_MTech_fee_structure
+
+- story: vjti_MCA_fee_structure path
+  steps:
+  - intent: vjti_MCA_fee_structure
+  - action: utter_vjti_MCA_fee_structure
+
+- story: vjti_BTech_fee_structure path
+  steps:
+  - intent: vjti_BTech_fee_structure
+  - action: utter_vjti_BTech_fee_structure
+
+- story: vjti_PHD_fee_structure path
+  steps:
+  - intent: vjti_PHD_fee_structure
+  - action: utter_vjti_PHD_fee_structure
+
+- story: vjti_fee_stucture path
+  steps:
+  - intent: vjti_fee_structure_enquiry
+  - action: utter_vjti_fee_structure
+
+- story: vjti_pgcourses path
+  steps:
+  - intent: vjti_pg_courses
+  - action: utter_pg_courses
+
+- story: vjti_ugcourses path
+  steps:
+  - intent: vjti_ug_courses
+  - action: utter_ug_courses
+
+- story: vjti_fee_structure path
+  steps:
+  - intent: vjti_fee_structure_enquiry
+  - action: utter_vjti_fee_structure
+
+- story: vjti_pgcourses path
+  steps:
+  - intent: vjti_pg_courses
+  - action: utter_pg_courses
+
+- story: vjti_ugcourses path
+  steps:
+  - intent: vjti_ug_courses
+  - action: utter_ug_courses
+
+- story: vjti_courses path
+  steps:
+  - intent: vjti_courses_enquiry
+  - action: utter_vjti_courses
+
+- story: vjti_history path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vjti_history_enquiry
+  - action: utter_vjti_history
+
+- story: vjti_acedemic path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vjti_academic_enquiry
+  - action: action_hello_world
+  
+  #- action: utter_vjti_academic
+
+- story: vjti_mca_hod path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vjti_mca_hod_enquiry
+  - action: utter_vjti_mca_hod
+  
+- story: vjti_mca_intake path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vjti_mca_intake_enquiry
+  - action: utter_vjti_mca_intake
+  
+- story: vjti_mca_enquiry path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vjti_mca_enquiry
+  - action: utter_vjti_mca
+  
+- story: vjti_location_enquiry path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vjti_location_enquiry
+  - action: utter_vjti_location
+  
+- story: vjti_name_enquiry path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vjti_name_enquiry
+  - action: utter_vjti_name
+  
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

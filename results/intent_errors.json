@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Mtech fee structure",
+    "intent": "vjti_MCA_fee_structure",
+    "intent_prediction": {
+      "name": "vjti_MTech_fee_structure",
+      "confidence": 0.4453369379043579
+    }
+  },
+  {
+    "text": "fee structure for Mtech",
+    "intent": "vjti_MCA_fee_structure",
+    "intent_prediction": {
+      "name": "vjti_MTech_fee_structure",
+      "confidence": 0.45842310786247253
+    }
+  },
+  {
+    "text": "Mtech fee structure",
+    "intent": "vjti_PHD_fee_structure",
+    "intent_prediction": {
+      "name": "vjti_MTech_fee_structure",
+      "confidence": 0.4453369379043579
+    }
+  },
+  {
+    "text": "fee structure for Mtech",
+    "intent": "vjti_PHD_fee_structure",
+    "intent_prediction": {
+      "name": "vjti_MTech_fee_structure",
+      "confidence": 0.45842310786247253
+    }
+  }
+]

@@ -1,0 +1,314 @@
+version: "2.0"
+nlu:
+ - intent: notice
+   examples: |
+    - notice for mca students
+    - Notices for mca
+    - SYMCA notices
+    - Is there any notice for SYMCA Students?
+    - Notice for SYMCA
+ 
+ - intent: vjti_hostel_enquiry
+   examples: |
+    - Want to know details about VJTI's hostel facility?
+    - Can you tell details about vjti hostel?
+    - VJTI Hostel details
+    - I want to know about VJTI hostel facility
+
+ - intent: vjti_exam_section_enquiry
+   examples: |
+    - Want to know details of exam section ?
+    - Can you tell about announcements of exam section?
+    - Exam section
+    - I want information about exam
+    - I want to go to VJTI exam section
+   
+ - intent: vjti_events_enquiry
+   examples: |
+    - What are the events in VJTI?
+    - Which events are organised in VJTI every year?
+    - VJTI events
+    - Events in VJTI
+    - Annual events in VJTI
+  
+ - intent: vjti_department_enquiry
+   examples: |
+    - I want information regarding departments in VJTI
+    - Departments of VJTI ?
+    - Which departments do VJTI have?
+      
+ - intent: vjti_director_enquiry
+   examples: |
+    - director of VJTI
+    - Who is director of VJTI ?
+
+ - intent: vjti_home_enquiry
+   examples: |
+    - home page of college website
+    - home page of clg
+
+ - intent: vjti_library_enquiry
+   examples: |
+    - Is there Library in VJTI?
+    - Do clg have library
+    - Do College have Library?
+   
+ - intent: vjti_library_details_enquiry
+   examples: |
+    - What are the facilities in library
+    - Tell something more about library
+    - Information about VJTI Library
+
+ - intent: vjti_mca_notice_enquiry
+   examples: |
+    - Is there any notice for mca students?
+    - Notice for SYMCA
+
+ - intent: vjti_mca_hostel_enquiry
+   examples: |
+    - Is there any hostel facility for mca student?
+    - hostel  facility for mca student
+
+ - intent: vjti_placement_companies_enquiry
+   examples: |
+    - which companies visit MCA for placements
+    - placement companies in VJTI
+
+ - intent: vjti_placement_enquiry
+   examples: |
+    - Tell me about placement details
+    - I want to know placement details
+
+ - intent: vjti_scholarship_enquiry
+   examples: |
+    - Tell me about schloarship details
+    - I want to know schloarship details
+    - Schloarship details
+
+ - intent: vjti_mca_staff_enquiry
+   examples: |
+    - MCA staff details
+    - faculty of MCA department
+    - MCA Staff
+
+ - intent: vjti_mca_eligibility
+   examples: |
+    - What is vjti's eligibility criteria for mca
+    - eligibility criteria for mca
+
+ - intent: vjti_mca_vision_enquiry
+   examples: |
+    - vision of mca department
+    - mca department vision
+
+ - intent: vjti_contact_us_enquiry
+   examples: |
+    - vjti contact us page
+    - I want to go to contact us page
+    - want to know contact details
+
+ - intent: vjti_tpo_enquiry
+   examples: |
+    - more information about vjti placement cell
+    - Vjti TPO
+    - want to know more about TPO detail
+    - placement cell details
+
+ - intent: vjti_tpo_intro
+   examples: |
+    - what is tpo?
+    - Is there tpo in vjti?
+
+ - intent: vjti_about_us_enquiry
+   examples: |
+    - vjti about us page
+    - I want to go to about us page
+    
+ - intent: vjti_fy_fee_structure
+   examples: |
+    - first year fee structure
+    - fee structure for first year engineering course
+    - fy fee structure
+
+ - intent: vjti_sy_fee_structure
+   examples: |
+    - second year fee structure
+    - fee structure for second  year engineering course
+    - fee structure for third  year engineering course
+    - fee structure for fourth year engineering course
+    - fee structure for last year mca course
+    - sy fee structure
+
+ - intent: vjti_DS_fee_structure
+   examples: |
+    - direct second year fee structure
+    
+ - intent: vjti_BTech_fee_structure
+   examples: |
+    - Btech fee structure
+    - fee structure for engineering courses
+
+ - intent: vjti_MTech_fee_structure
+   examples: |
+    - Mtech fee structure
+    - fee structure for Mtech
+
+ - intent: vjti_MCA_fee_structure
+   examples: |
+    - Mtech fee structure
+    - fee structure for Mtech
+
+ - intent: vjti_PHD_fee_structure
+   examples: |
+    - Mtech fee structure
+    - fee structure for Mtech
+
+ - intent: vjti_fee_structure_enquiry
+   examples: |
+    - fees in vjti
+    - fee structure of a college
+    - can you tell me fee structure of vjti
+
+ - intent: vjti_pg_courses
+   examples: |
+    - post courses avaialable in vjti 
+    - pg courses avaialable in vjti
+
+ - intent: vjti_ug_courses
+   examples: |
+    - under graduate courses avaialable in vjt-
+    - ug courses in vjti
+    
+ - intent: vjti_courses_enquiry
+   examples: |
+    - courses avaialable in vjti
+    - courses offered in vjti
+    - information regarding courses offered in vjti
+
+ - intent: vjti_history_enquiry
+   examples: |
+    - What is history of Vjti ?
+    - Tell something about vjti history
+    - history of vjti
+
+ - intent: vjti_academic_enquiry
+   examples: |
+    - Which courses are offered by Vjti ?
+    - courses of vjti
+    - Which courses are offered Vjti
+  
+ - intent: vjti_mca_intake_enquiry
+   examples: |
+    - What is intake for first year MCA?
+    - How many students can get admission for first year in vjti?
+    - intake capacity for mca course
+
+ - intent: vjti_mca_hod_enquiry
+   examples: |
+    - What is name of HOD ?
+    - HOD of MCA Department
+  
+ - intent: vjti_mca_enquiry
+   examples: |
+    - information of mca department
+    - tell something about vjti mca department    
+    
+ - intent: vjti_location_enquiry
+   examples: |
+    - Where is VJTI College?
+    - What is location VJTI
+    - college location
+    - clg address
+    - clg location
+
+ - intent: vjti_name_enquiry
+   examples: |
+    - What is name of College?
+    - Name of college
+    - college name
+    - clg name
+    - VJTI
+    
+ - intent: greet
+   examples: |
+    - hey 
+    - hello
+    - hi
+    - hello there
+    - hey there
+    - Good morning
+    - Good evening
+   
+ - intent: goodbye
+   examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+ - intent: affirm
+   examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+ - intent: deny
+   examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+ - intent: mood_great
+   examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+ - intent: mood_unhappy
+   examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+ - intent: bot_challenge
+   examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
